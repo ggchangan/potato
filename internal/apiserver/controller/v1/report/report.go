@@ -1,8 +1,8 @@
 package report
 
 import (
-	"github.com/ggchangan/yugong/internal/apiserver/service"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/apiserver/service"
+	"github.com/ggchangan/potato/internal/apiserver/store"
 )
 
 // ReportController create a report handler used to handle request for report resource.

@@ -15,10 +15,10 @@ import (
 
 const (
 	// RecommendedHomeDir defines the default directory used to place all iam service configurations.
-	RecommendedHomeDir = ".yugong"
+	RecommendedHomeDir = ".potato"
 
 	// RecommendedEnvPrefix defines the ENV prefix used by all iam service.
-	RecommendedEnvPrefix = "YUGONG"
+	RecommendedEnvPrefix = "potato"
 )
 
 // Config is a structure used to configure a GenericAPIServer.
@@ -89,7 +89,7 @@ func LoadConfig(cfg string, defaultName string) {
 	} else {
 		viper.AddConfigPath(".")
 		viper.AddConfigPath(filepath.Join(homedir.HomeDir(), RecommendedHomeDir))
-		viper.AddConfigPath("/etc/yugong")
+		viper.AddConfigPath("/etc/potato")
 		viper.SetConfigName(defaultName)
 	}
 

@@ -1,6 +1,6 @@
 package config
 
-import "github.com/ggchangan/yugong/internal/apiserver/options"
+import "github.com/ggchangan/potato/internal/apiserver/options"
 
 // Config is the running configuration structure of the IAM pump service.
 type Config struct {

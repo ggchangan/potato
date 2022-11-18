@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/marmotedu/iam/pkg/log"
 
-	"github.com/ggchangan/yugong/internal/pkg/util/core"
+	"github.com/ggchangan/potato/internal/pkg/util/core"
 )
 
 // Strategy get a strategy to buy a new stock.

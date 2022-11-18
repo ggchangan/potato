@@ -8,8 +8,8 @@ import (
 
 	"github.com/marmotedu/iam/pkg/log"
 
-	genericoptions "github.com/ggchangan/yugong/internal/pkg/options"
-	"github.com/ggchangan/yugong/internal/pkg/server"
+	genericoptions "github.com/ggchangan/potato/internal/pkg/options"
+	"github.com/ggchangan/potato/internal/pkg/server"
 )
 
 // Options runs a iam api server.

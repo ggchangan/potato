@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/apiserver/model"
 )
 
 // ReportMessageStore defines the user storage interface.

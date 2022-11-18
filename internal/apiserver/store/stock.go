@@ -2,7 +2,7 @@ package store
 
 import (
 	"context"
-	"github.com/ggchangan/yugong/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/apiserver/model"
 )
 
 // StockStore defines the stock storage interface.

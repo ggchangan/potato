@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/apiserver/store"
 )
 
 type ReportMessageSrv interface {

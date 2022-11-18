@@ -1,13 +1,13 @@
 package apiserver
 
 import (
-	"github.com/ggchangan/yugong/internal/apiserver/controller/v1/buyer"
-	"github.com/ggchangan/yugong/internal/apiserver/controller/v1/stock"
+	"github.com/ggchangan/potato/internal/apiserver/controller/v1/buyer"
+	"github.com/ggchangan/potato/internal/apiserver/controller/v1/stock"
 	"github.com/gin-gonic/gin"
 
-	"github.com/ggchangan/yugong/internal/apiserver/controller/v1/message"
-	"github.com/ggchangan/yugong/internal/apiserver/controller/v1/report"
-	"github.com/ggchangan/yugong/internal/apiserver/store/mysql"
+	"github.com/ggchangan/potato/internal/apiserver/controller/v1/message"
+	"github.com/ggchangan/potato/internal/apiserver/controller/v1/report"
+	"github.com/ggchangan/potato/internal/apiserver/store/mysql"
 )
 
 func initRouter(g *gin.Engine) {

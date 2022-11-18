@@ -1,8 +1,8 @@
 package message
 
 import (
-	"github.com/ggchangan/yugong/internal/apiserver/service"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/apiserver/service"
+	"github.com/ggchangan/potato/internal/apiserver/store"
 )
 
 // ReportMessageController create a report message handler used to handle request for report message resource.

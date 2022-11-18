@@ -1,6 +1,6 @@
 package apiserver
 
-import "github.com/ggchangan/yugong/internal/apiserver/config"
+import "github.com/ggchangan/potato/internal/apiserver/config"
 
 // Run runs the specified APIServer. This should never exit.
 func Run(cfg *config.Config) error {

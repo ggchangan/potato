@@ -2,11 +2,11 @@
 package apiserver
 
 import (
-	"github.com/ggchangan/yugong/pkg/app"
+	"github.com/ggchangan/potato/pkg/app"
 	"github.com/marmotedu/iam/pkg/log"
 
-	"github.com/ggchangan/yugong/internal/apiserver/config"
-	"github.com/ggchangan/yugong/internal/apiserver/options"
+	"github.com/ggchangan/potato/internal/apiserver/config"
+	"github.com/ggchangan/potato/internal/apiserver/options"
 )
 
 const commandDesc = `The IAM API server validates and configures data
@@ -19,7 +19,7 @@ Find more iam-apiserver information at:
 // NewApp creates a App object with default parameters.
 func NewApp(basename string) *app.App {
 	opts := options.NewOptions()
-	application := app.NewApp("yugong API Server",
+	application := app.NewApp("potato API Server",
 		basename,
 		app.WithOptions(opts),
 		app.WithDescription(commandDesc),

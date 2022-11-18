@@ -2,8 +2,8 @@ package mysql
 
 import (
 	"context"
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/pkg/code"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/pkg/code"
 	"github.com/marmotedu/errors"
 	"gorm.io/gorm"
 )

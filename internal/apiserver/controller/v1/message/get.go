@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/marmotedu/iam/pkg/log"
 
-	"github.com/ggchangan/yugong/internal/pkg/util/core"
+	"github.com/ggchangan/potato/internal/pkg/util/core"
 )
 
 // Get get an report message by the report identifier.

@@ -7,7 +7,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/ggchangan/yugong/internal/pkg/server"
+	"github.com/ggchangan/potato/internal/pkg/server"
 )
 
 // ServerRunOptions contains the options while running a generic api server.

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ggchangan/yugong/internal/apiserver"
+	"github.com/ggchangan/potato/internal/apiserver"
 )
 
 func main() {

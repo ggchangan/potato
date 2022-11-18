@@ -7,8 +7,8 @@ import (
 
 	"github.com/marmotedu/errors"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/pkg/code"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/pkg/code"
 )
 
 type reports struct {

@@ -1,6 +1,6 @@
 package service
 
-import "github.com/ggchangan/yugong/internal/apiserver/store"
+import "github.com/ggchangan/potato/internal/apiserver/store"
 
 //go:generate mockgen -self_package=github.com/marmotedu/iam/internal/apiserver/service/v1 -destination mock_service.go -package v1 github.com/marmotedu/iam/internal/apiserver/service/v1 Service,UserSrv,SecretSrv,PolicySrv
 

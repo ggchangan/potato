@@ -5,13 +5,13 @@ import (
 
 	"github.com/marmotedu/iam/pkg/log"
 
-	"github.com/ggchangan/yugong/internal/apiserver/config"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
-	"github.com/ggchangan/yugong/internal/apiserver/store/mysql"
-	genericoptions "github.com/ggchangan/yugong/internal/pkg/options"
-	genericapiserver "github.com/ggchangan/yugong/internal/pkg/server"
-	"github.com/ggchangan/yugong/pkg/shutdown"
-	"github.com/ggchangan/yugong/pkg/shutdown/shutdownmanagers/posixsignal"
+	"github.com/ggchangan/potato/internal/apiserver/config"
+	"github.com/ggchangan/potato/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/apiserver/store/mysql"
+	genericoptions "github.com/ggchangan/potato/internal/pkg/options"
+	genericapiserver "github.com/ggchangan/potato/internal/pkg/server"
+	"github.com/ggchangan/potato/pkg/shutdown"
+	"github.com/ggchangan/potato/pkg/shutdown/shutdownmanagers/posixsignal"
 )
 
 type apiServer struct {

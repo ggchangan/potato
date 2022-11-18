@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/pflag"
 	"gorm.io/gorm"
 
-	"github.com/ggchangan/yugong/pkg/db"
+	"github.com/ggchangan/potato/pkg/db"
 )
 
 // MySQLOptions defines options for mysql database.

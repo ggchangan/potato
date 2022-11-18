@@ -14,7 +14,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/ggchangan/yugong/pkg/shutdown"
+	"github.com/ggchangan/potato/pkg/shutdown"
 )
 
 // Name defines shutdown manager name.

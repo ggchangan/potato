@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/apiserver/store"
 )
 
 // ResourceCount defines the number of fake resources.

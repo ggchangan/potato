@@ -5,9 +5,9 @@ import (
 
 	"github.com/marmotedu/errors"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/pkg/code"
-	reflectutil "github.com/ggchangan/yugong/internal/pkg/util/reflect"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/pkg/code"
+	reflectutil "github.com/ggchangan/potato/internal/pkg/util/reflect"
 )
 
 type reports struct {

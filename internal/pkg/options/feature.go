@@ -7,7 +7,7 @@ package options
 import (
 	"github.com/spf13/pflag"
 
-	"github.com/ggchangan/yugong/internal/pkg/server"
+	"github.com/ggchangan/potato/internal/pkg/server"
 )
 
 // FeatureOptions contains configuration items related to API server features.

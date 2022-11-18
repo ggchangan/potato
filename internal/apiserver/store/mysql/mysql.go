@@ -11,11 +11,11 @@ import (
 	"github.com/marmotedu/errors"
 	"gorm.io/gorm"
 
-	"github.com/ggchangan/yugong/internal/apiserver/model"
-	"github.com/ggchangan/yugong/internal/apiserver/store"
-	"github.com/ggchangan/yugong/internal/pkg/logger"
-	genericoptions "github.com/ggchangan/yugong/internal/pkg/options"
-	"github.com/ggchangan/yugong/pkg/db"
+	"github.com/ggchangan/potato/internal/apiserver/model"
+	"github.com/ggchangan/potato/internal/apiserver/store"
+	"github.com/ggchangan/potato/internal/pkg/logger"
+	genericoptions "github.com/ggchangan/potato/internal/pkg/options"
+	"github.com/ggchangan/potato/pkg/db"
 )
 
 type datastore struct {
